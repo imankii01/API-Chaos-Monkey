@@ -1,0 +1,43 @@
+{
+  "name": "api-chaos-monkey",
+  "version": "1.0.0",
+  "description": "Unleash controlled chaos on your Node.js APIs for stress testing and resilience building",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/test.js",
+    "example": "node examples/express-example.js",
+    "demo": "node examples/advanced-demo.js"
+  },
+  "keywords": [
+    "chaos",
+    "testing",
+    "middleware",
+    "stress-testing",
+    "resilience",
+    "express",
+    "koa",
+    "fastify",
+    "api",
+    "monkey",
+    "chaos-engineering"
+  ],
+  "author": "Ankit <ankit@example.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/imankii01/api-chaos-monkey",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imankii01/api-chaos-monkey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imankii01/api-chaos-monkey/issues"  
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "examples/",
+    "README.md"
+  ]
+}
